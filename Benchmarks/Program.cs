@@ -11,6 +11,7 @@ namespace Benchmarks
             BenchmarkRunner.Run<Increment>();
             BenchmarkRunner.Run<ConcurrentDictionaryVsFineGrainLockedDictionary>();
             BenchmarkRunner.Run<StringEquality>();
+            BenchmarkRunner.Run<StringInterpolation>();
             Console.ReadKey();
         }
     }
